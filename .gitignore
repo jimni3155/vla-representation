@@ -1,0 +1,39 @@
+# Python environments
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and caches
+.env
+.env.*
+!.env.example
+.cache/
+.huggingface/
+
+# Model checkpoints
+checkpoints/
+*.safetensors
+*.ckpt
+*.pth
+
+# Generated experiment outputs
+# results/
+outputs/
+logs/
+wandb/
+runs/
+ray_results/
+
+# Generated media and arrays
+*.mp4
+*.avi
+*.gif
+*.npz
+*.npy
+
+# Editor and OS
+.vscode/
+.DS_Store
